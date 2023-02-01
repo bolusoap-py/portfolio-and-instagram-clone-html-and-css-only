@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'josefin Sans', sans-serif;
+}
+
+.container{
+    background-image: url(images/istockphoto-1358132456-170667a.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+.navbar ul{
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.navbar ul li{
+    float: left;
+    background-color: rgb(51, 50, 50);
+    width: 200px;
+    height: 40px;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.navbar ul li a:hover{
+    background-color: greenyellow;
+    transition: .4s;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li i{
+    color: greenyellow;
+}
